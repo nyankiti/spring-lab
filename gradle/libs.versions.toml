@@ -1,8 +1,9 @@
 [versions]
 spring-boot = "3.4.3"
+projectreactor = "2025.0.0-M1"
 
 [libraries]
-
+projectreactor-bom = { module = "io.projectreactor:reactor-bom", version.ref = "projectreactor"}
 
 [plugins]
 spring-boot = { id = "org.springframework.boot", version.ref = "spring-boot"}
